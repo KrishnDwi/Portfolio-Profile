@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: cadetblue;
+}
+.container{
+    width: 100%;
+}
+header{
+    text-align: center;
+    margin: 25px 0px;
+    font-size: x-large;
+    color: white;
+}
+.main{
+    display: flex;
+    margin: 25px 0px;
+}
+.side-main{
+    width: 75vw;
+    padding: 25px;
+    margin: 0px 1vw;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px -4px;
+}
+.side-main h1{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 50px;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+.side-main .project{
+    margin: 25px 0px;
+    text-align: center;
+}
+.side-main .project h2{
+    padding: 10px 0px;
+}
+.side-main .project .content img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+.side-main .project .content p{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+.side-main .project .content figcaption{
+    width: 70%;
+    margin: auto;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.side-profile{
+    margin: 0px 1vw;
+}
+.side-profile .profile-container{
+    background-color: lightgray;
+    width: 25vw;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px -4px;
+}
+.side-profile .profile-container img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+    border: 5px solid cadetblue;
+    border-radius: 50%;
+}
+.side-profile .profile-container h2{
+    padding: 10px 0px;
+}
+.side-profile .profile-container h3{
+    padding: 10px 0px 0px;
+}
+.side-profile .profile-container hr{
+    width: 70%;
+    margin: 5px 0px;
+}
+.side-profile .profile-container a{
+    padding: 10px 0px;
+    display: block;
+}
